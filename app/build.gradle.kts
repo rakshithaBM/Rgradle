@@ -48,7 +48,9 @@ tasks.named<Test>("test") {
 }
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.gec.hmaven.App"
+        attributes["Main-Class"] = "org.example.App"
+
+
     }
 }
 
